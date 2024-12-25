@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family:customfont;
+    src: url(Norse-Bold\ \(1\).otf);
+  }  
+
+*{
+    font-family: customfont;
+    letter-spacing: 1px;
+    
+}
+
+.mainPage{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.p1,.p2{
+    flex: 1;
+}
+
+.illus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#illustration{
+    height: 750px;
+    margin: 20px;
+}
+
+.p1{
+    background-color: #480ca8;
+    color: #4cc9f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.companyName,.illus{
+    flex: 1;
+    margin: 5px;
+}
+
+.companyName{
+    text-align: center;
+    font-size: 60px;
+}
+
+h1{
+    margin: 5px;
+}
+
+.p2{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    border-radius: 10px;
+}
+
+.Form{
+    font-size: 30px;
+    padding: 20px;
+    background-color: #4895ef;
+    border-radius: 15px;
+    border: 5px solid #480ca8;
+}
+
+.Form div{
+    margin: 5px 10px;
+}
+
+.formHead,.fname,.lname,.gender,.email,.password,.createAccount{
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+
+input[type="text"],input[type="email"],input[type="password"]{
+    padding: 7px;
+    width: 200px;
+    border: 3px solid #3f37c9;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.formHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHead div{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.createAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border:3px solid #3f37c9;
+    border-radius: 5px;
+    background-color: #4cc9f0;
+    font-size: 20px ;
+    height: 50px;
+    width: 150px;
+}
+
+input[type="radio"]{
+    height: 15px;
+    width: 15px;
+}

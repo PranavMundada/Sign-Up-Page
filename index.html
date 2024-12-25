@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Page</title>
+</head>
+
+<body>
+    <div class="mainPage">
+        <div class="p1">
+            <div class="companyName">
+                <h1>Bingo</h1>
+            </div>
+            <div class="illus"><img id="illustration" src="37455684_8459800.svg"> </div>
+        </div>
+        <div class="p2">
+            <div class="Form">
+                <form action="https://httpbin.org/post" method="post">
+                    <div class="formHead">
+                        <div>
+                            <legend>Sign-Up</legend>
+                        </div>
+                        
+                    </div>
+                    <div class="fname">
+                        <div><label for="firstName">First Name :</label></div>
+                        <div><input type="text" id="firstName" name="firstName"></div>
+                    </div>
+                    <div class="lname">
+                        <div><label for="lastName">Last Name : </label></div>
+                        <div><input type="text" name="lastName" id="lastName"></div>
+                    </div>
+                    <div class="gender">
+                            <div><label for="gender">Gender :</label></div>
+                            <div><input type="radio" name="gender" id="female" value="female"></div>
+                            <div><label for="female">Female</label></div>
+                            <div><input type="radio" name="gender" id="male" value="male"></div>
+                            <div><label for="male">Male</label></div>
+                     
+                    </div>
+                    <div class="email">
+                        <div><label for="email">Email :</label></div>
+                        <div><input type="email" name="email" id="email"></div>
+                    </div>
+                    <div class="password">
+                        <div><label for="password">Password :</label></div>
+                        <div><input type="password" name="password" id="password"></div>
+                    </div>
+                    <div class="createAccount"><div><button type="submit">Create Account</button></div></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
